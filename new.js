@@ -9,8 +9,8 @@
 import * as dotenv from 'dotenv'
 import  express  from "express"
 import { MongoClient } from "mongodb"
-import { MovieRouter} from "./file./Movie.js"
-import { userRouter} from "./file./user.js"
+import { MovieRouter } from './file/Movie.js'
+import { userRouter } from './file/user.js'
 
 
 dotenv.config()
