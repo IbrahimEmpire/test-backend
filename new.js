@@ -91,8 +91,9 @@ const port = process.env.port
 //     }
 //    ]   
 
-console.log(process.env.mongo_url) 
-   const mongo_url = process.env.mongo_url
+ 
+   const mongo_url = "mongodb+srv://ibrahim:3998786@cluster0.vyrjjl0.mongodb.net/?retrywrites=true&w=majority"
+
 
  
 async function createConnection(){
